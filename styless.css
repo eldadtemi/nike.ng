@@ -34,6 +34,21 @@ nav a {
     font-weight: bold;
 }
 
+/* Style the navigation bar links */
+nav ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  padding: 10px 20px; /* Add some padding to the links */
+  color: #808080; /* Set the default text color */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change the background color and text color on hover */
+nav ul li a:hover {
+  background-color: #808080; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}
+
+
 .cart a {
     text-decoration: none;
     color: #fff;
@@ -121,4 +136,10 @@ footer {
 .social-media img {
   width: 30px;
   margin: 0 5px;
+  border-radius: 90px;
+}
+
+/* Change the color of links at the bottom of the page */
+.bottom-link {
+  color: #FFFFFF; /* Change the text color to your desired color */
 }
